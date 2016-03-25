@@ -11,10 +11,13 @@
 		4A6968F11CA3AB45000562DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6968F01CA3AB45000562DD /* AppDelegate.m */; };
 		4A6968F41CA3AB45000562DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6968F31CA3AB45000562DD /* ViewController.m */; };
 		4A6968F71CA3AB45000562DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6968F51CA3AB45000562DD /* Main.storyboard */; };
-		4A6968F91CA3AB45000562DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A6968F81CA3AB45000562DD /* Assets.xcassets */; };
 		4A6968FC1CA3AB45000562DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6968FA1CA3AB45000562DD /* LaunchScreen.storyboard */; };
 		4A6969071CA3AB45000562DD /* MyWebSiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6969061CA3AB45000562DD /* MyWebSiteTests.m */; };
 		4A6969121CA3AB45000562DD /* MyWebSiteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6969111CA3AB45000562DD /* MyWebSiteUITests.m */; };
+		4A6969241CA3ACAC000562DD /* WeddingPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6969231CA3ACAC000562DD /* WeddingPhotoView.m */; };
+		4A6969271CA3ACD2000562DD /* WeddingPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6969261CA3ACD2000562DD /* WeddingPhotoViewController.m */; };
+		4A69692C1CA3AE81000562DD /* WebSiteTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A69692B1CA3AE81000562DD /* WebSiteTabbarController.m */; };
+		4A69692E1CA3AFB3000562DD /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A69692D1CA3AFB3000562DD /* Reveal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +45,6 @@
 		4A6968F21CA3AB45000562DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4A6968F31CA3AB45000562DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4A6968F61CA3AB45000562DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4A6968F81CA3AB45000562DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A6968FB1CA3AB45000562DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A6968FD1CA3AB45000562DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A6969021CA3AB45000562DD /* MyWebSiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWebSiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +53,13 @@
 		4A69690D1CA3AB45000562DD /* MyWebSiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWebSiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6969111CA3AB45000562DD /* MyWebSiteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWebSiteUITests.m; sourceTree = "<group>"; };
 		4A6969131CA3AB45000562DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6969221CA3ACAC000562DD /* WeddingPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeddingPhotoView.h; sourceTree = "<group>"; };
+		4A6969231CA3ACAC000562DD /* WeddingPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeddingPhotoView.m; sourceTree = "<group>"; };
+		4A6969251CA3ACD2000562DD /* WeddingPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeddingPhotoViewController.h; sourceTree = "<group>"; };
+		4A6969261CA3ACD2000562DD /* WeddingPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeddingPhotoViewController.m; sourceTree = "<group>"; };
+		4A69692A1CA3AE81000562DD /* WebSiteTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSiteTabbarController.h; sourceTree = "<group>"; };
+		4A69692B1CA3AE81000562DD /* WebSiteTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSiteTabbarController.m; sourceTree = "<group>"; };
+		4A69692D1CA3AFB3000562DD /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A69692E1CA3AFB3000562DD /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +111,13 @@
 		4A6968EB1CA3AB45000562DD /* MyWebSite */ = {
 			isa = PBXGroup;
 			children = (
+				4A69692D1CA3AFB3000562DD /* Reveal.framework */,
+				4A6969211CA3AC4B000562DD /* controller */,
+				4A6969201CA3AC44000562DD /* view */,
+				4A69691F1CA3AC3B000562DD /* model */,
 				4A6968EF1CA3AB45000562DD /* AppDelegate.h */,
 				4A6968F01CA3AB45000562DD /* AppDelegate.m */,
-				4A6968F21CA3AB45000562DD /* ViewController.h */,
-				4A6968F31CA3AB45000562DD /* ViewController.m */,
 				4A6968F51CA3AB45000562DD /* Main.storyboard */,
-				4A6968F81CA3AB45000562DD /* Assets.xcassets */,
 				4A6968FA1CA3AB45000562DD /* LaunchScreen.storyboard */,
 				4A6968FD1CA3AB45000562DD /* Info.plist */,
 				4A6968EC1CA3AB45000562DD /* Supporting Files */,
@@ -138,6 +149,35 @@
 				4A6969131CA3AB45000562DD /* Info.plist */,
 			);
 			path = MyWebSiteUITests;
+			sourceTree = "<group>";
+		};
+		4A69691F1CA3AC3B000562DD /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		4A6969201CA3AC44000562DD /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4A6969221CA3ACAC000562DD /* WeddingPhotoView.h */,
+				4A6969231CA3ACAC000562DD /* WeddingPhotoView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		4A6969211CA3AC4B000562DD /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A6968F21CA3AB45000562DD /* ViewController.h */,
+				4A6968F31CA3AB45000562DD /* ViewController.m */,
+				4A6969251CA3ACD2000562DD /* WeddingPhotoViewController.h */,
+				4A6969261CA3ACD2000562DD /* WeddingPhotoViewController.m */,
+				4A69692A1CA3AE81000562DD /* WebSiteTabbarController.h */,
+				4A69692B1CA3AE81000562DD /* WebSiteTabbarController.m */,
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +284,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A6968FC1CA3AB45000562DD /* LaunchScreen.storyboard in Resources */,
-				4A6968F91CA3AB45000562DD /* Assets.xcassets in Resources */,
 				4A6968F71CA3AB45000562DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +309,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A6969241CA3ACAC000562DD /* WeddingPhotoView.m in Sources */,
 				4A6968F41CA3AB45000562DD /* ViewController.m in Sources */,
+				4A6969271CA3ACD2000562DD /* WeddingPhotoViewController.m in Sources */,
 				4A6968F11CA3AB45000562DD /* AppDelegate.m in Sources */,
 				4A6968EE1CA3AB45000562DD /* main.m in Sources */,
+				4A69692C1CA3AE81000562DD /* WebSiteTabbarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +453,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyWebSite",
+				);
 				INFOPLIST_FILE = MyWebSite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.DWCreater.MyWebSite;
@@ -422,6 +468,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyWebSite",
+				);
 				INFOPLIST_FILE = MyWebSite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.DWCreater.MyWebSite;
@@ -496,6 +546,7 @@
 				4A6969181CA3AB45000562DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A6969191CA3AB45000562DD /* Build configuration list for PBXNativeTarget "MyWebSiteTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +555,7 @@
 				4A69691B1CA3AB45000562DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A69691C1CA3AB45000562DD /* Build configuration list for PBXNativeTarget "MyWebSiteUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +564,7 @@
 				4A69691E1CA3AB45000562DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

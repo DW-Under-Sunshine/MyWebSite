@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "WebSiteTabbarController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //设置开始界面为Tabbar
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    WebSiteTabbarController *rootController = [[WebSiteTabbarController alloc]init];
+    [self.window setRootViewController:rootController];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
