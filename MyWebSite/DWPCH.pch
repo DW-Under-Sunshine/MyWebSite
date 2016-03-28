@@ -1,0 +1,18 @@
+//
+//  DWPCH.pch
+//  MyWebSite
+//
+//  Created by DW on 16/3/25.
+//  Copyright © 2016年 DW. All rights reserved.
+//
+
+#ifndef DWPCH_pch
+#define DWPCH_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#import "UIView+Frame.h"
+#import "UIImage+Image.h"
+
+#define DWKeyWindow [UIApplication sharedApplication].keyWindow
+#endif /* DWPCH_pch */

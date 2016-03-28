@@ -9,5 +9,4 @@
 #import "WeddingPhotoView.h"
 
 @implementation WeddingPhotoView
-
 @end
