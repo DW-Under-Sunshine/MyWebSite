@@ -14,7 +14,13 @@
 {
     return YES;
 }
-
+-(UIWebView *)web
+{
+    if (_web == nil) {
+        _web = [[UIWebView alloc]initWithFrame:self.view.bounds];
+    }
+    return _web;
+}
 -(MBProgressHUD *)MB
 {
     if (_MB == nil) {
@@ -25,13 +31,13 @@
 -(void)viewDidLoad
 {
     [super viewDidLoad];
-    UIWebView *webView = [[UIWebView alloc]initWithFrame:self.view.bounds];
-    [self.view addSubview:webView];
+    
     NSString *urlStr = [NSString stringWithFormat:@"http://www.dogbroblog.com/WeddingPhoto/chevereto/"];
     NSURL *url = [NSURL URLWithString:urlStr];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    [webView loadRequest:request];
-    webView.delegate = self;
+    [self.web loadRequest:request];
+    [self.view addSubview:self.web];
+    self.web.delegate = self;
 }
 
 #pragma mark -uiwebView代理

@@ -10,4 +10,5 @@
 #import "MBProgressHUD.h"
 @interface WeddingPhotoViewController : UIViewController
 @property (nonatomic,strong) MBProgressHUD *MB;
+@property (nonatomic,strong) UIWebView *web;
 @end

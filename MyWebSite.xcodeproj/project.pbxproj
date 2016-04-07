@@ -11,7 +11,6 @@
 		4A083AAE1CA4BF2600FB9625 /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A083AAD1CA4BF2600FB9625 /* UIImage+image.m */; };
 		4A083AB11CA4C17F00FB9625 /* HostSiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A083AB01CA4C17F00FB9625 /* HostSiteViewController.m */; };
 		4A083AB31CA4C43B00FB9625 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A083AB21CA4C43B00FB9625 /* JavaScriptCore.framework */; };
-		4A083B111CA4F62600FB9625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A083B101CA4F62500FB9625 /* Main.storyboard */; };
 		4A083B141CA4F69A00FB9625 /* DWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A083B131CA4F69A00FB9625 /* DWNavigationController.m */; };
 		4A083B201CA50C1000FB9625 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A083B1F1CA50C1000FB9625 /* UIKit.framework */; };
 		4A0ABFA01CB3A1FA00AAD7E2 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0ABF9C1CB3A1FA00AAD7E2 /* MBProgressHUD+MJ.m */; };
@@ -27,6 +26,16 @@
 		4A6969271CA3ACD2000562DD /* WeddingPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6969261CA3ACD2000562DD /* WeddingPhotoViewController.m */; };
 		4A69692C1CA3AE81000562DD /* WebSiteTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A69692B1CA3AE81000562DD /* WebSiteTabbarController.m */; };
 		4A69692E1CA3AFB3000562DD /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A69692D1CA3AFB3000562DD /* Reveal.framework */; };
+		4A6CA11D1CB5F61100B7B52B /* DWWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6CA11C1CB5F61100B7B52B /* DWWebViewVC.m */; };
+		4A6CA1221CB61EAC00B7B52B /* UIBarButtonItem+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6CA11F1CB61EAC00B7B52B /* UIBarButtonItem+Extensions.m */; };
+		4A6CA1231CB61EAC00B7B52B /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6CA1211CB61EAC00B7B52B /* UIView+Extensions.m */; };
+		4A6CA13D1CB6210A00B7B52B /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6CA1371CB6210A00B7B52B /* LeftViewController.m */; };
+		4A6CA13E1CB6210A00B7B52B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6CA1381CB6210A00B7B52B /* Main.storyboard */; };
+		4A6CA13F1CB6210A00B7B52B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6CA13A1CB6210A00B7B52B /* MainViewController.m */; };
+		4A6CA1401CB6210A00B7B52B /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6CA13C1CB6210A00B7B52B /* OtherViewController.m */; };
+		4A6CA1431CB6215B00B7B52B /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6CA1421CB6215B00B7B52B /* TestViewController.m */; };
+		4A6CA1451CB621A200B7B52B /* Left.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6CA1441CB621A200B7B52B /* Left.storyboard */; };
+		4A6CA14C1CB6248200B7B52B /* DWLeftSlideControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6CA1481CB6248200B7B52B /* DWLeftSlideControllerOne.m */; };
 		4A6E736E1CB4A13900BF2057 /* normalize.css in Resources */ = {isa = PBXBuildFile; fileRef = 4A6E73691CB4A13900BF2057 /* normalize.css */; };
 		4A6E736F1CB4A13900BF2057 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4A6E736A1CB4A13900BF2057 /* style.css */; };
 		4A6E73701CB4A13900BF2057 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4A6E736B1CB4A13900BF2057 /* index.html */; };
@@ -58,7 +67,6 @@
 		4A083AAF1CA4C17F00FB9625 /* HostSiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostSiteViewController.h; sourceTree = "<group>"; };
 		4A083AB01CA4C17F00FB9625 /* HostSiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostSiteViewController.m; sourceTree = "<group>"; };
 		4A083AB21CA4C43B00FB9625 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		4A083B101CA4F62500FB9625 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4A083B121CA4F69A00FB9625 /* DWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWNavigationController.h; sourceTree = "<group>"; };
 		4A083B131CA4F69A00FB9625 /* DWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWNavigationController.m; sourceTree = "<group>"; };
 		4A083B1B1CA506EB00FB9625 /* DWPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWPCH.pch; sourceTree = "<group>"; };
@@ -89,6 +97,25 @@
 		4A69692A1CA3AE81000562DD /* WebSiteTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSiteTabbarController.h; sourceTree = "<group>"; };
 		4A69692B1CA3AE81000562DD /* WebSiteTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSiteTabbarController.m; sourceTree = "<group>"; };
 		4A69692D1CA3AFB3000562DD /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = MyWebSite/Reveal.framework; sourceTree = "<group>"; };
+		4A6CA11B1CB5F61100B7B52B /* DWWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWWebViewVC.h; sourceTree = "<group>"; };
+		4A6CA11C1CB5F61100B7B52B /* DWWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWWebViewVC.m; sourceTree = "<group>"; };
+		4A6CA11E1CB61EAC00B7B52B /* UIBarButtonItem+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extensions.h"; sourceTree = "<group>"; };
+		4A6CA11F1CB61EAC00B7B52B /* UIBarButtonItem+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extensions.m"; sourceTree = "<group>"; };
+		4A6CA1201CB61EAC00B7B52B /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
+		4A6CA1211CB61EAC00B7B52B /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
+		4A6CA1241CB61EDC00B7B52B /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		4A6CA1361CB6210A00B7B52B /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		4A6CA1371CB6210A00B7B52B /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		4A6CA1381CB6210A00B7B52B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4A6CA1391CB6210A00B7B52B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4A6CA13A1CB6210A00B7B52B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4A6CA13B1CB6210A00B7B52B /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		4A6CA13C1CB6210A00B7B52B /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		4A6CA1411CB6215B00B7B52B /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		4A6CA1421CB6215B00B7B52B /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		4A6CA1441CB621A200B7B52B /* Left.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Left.storyboard; sourceTree = "<group>"; };
+		4A6CA1471CB6248200B7B52B /* DWLeftSlideControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWLeftSlideControllerOne.h; sourceTree = "<group>"; };
+		4A6CA1481CB6248200B7B52B /* DWLeftSlideControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWLeftSlideControllerOne.m; sourceTree = "<group>"; };
 		4A6E73691CB4A13900BF2057 /* normalize.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = normalize.css; sourceTree = "<group>"; };
 		4A6E736A1CB4A13900BF2057 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		4A6E736B1CB4A13900BF2057 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
@@ -156,6 +183,8 @@
 			children = (
 				4A083AAF1CA4C17F00FB9625 /* HostSiteViewController.h */,
 				4A083AB01CA4C17F00FB9625 /* HostSiteViewController.m */,
+				4A6CA11B1CB5F61100B7B52B /* DWWebViewVC.h */,
+				4A6CA11C1CB5F61100B7B52B /* DWWebViewVC.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -209,6 +238,7 @@
 		4A083B0C1CA4F51E00FB9625 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4A6CA1241CB61EDC00B7B52B /* Constants.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -223,6 +253,7 @@
 		4A083B0E1CA4F52D00FB9625 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4A6CA1251CB61EEE00B7B52B /* LeftEdge */,
 				4A69692A1CA3AE81000562DD /* WebSiteTabbarController.h */,
 				4A69692B1CA3AE81000562DD /* WebSiteTabbarController.m */,
 				4A6968F21CA3AB45000562DD /* ViewController.h */,
@@ -238,6 +269,10 @@
 		4A083B0F1CA4F5A100FB9625 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				4A6CA11E1CB61EAC00B7B52B /* UIBarButtonItem+Extensions.h */,
+				4A6CA11F1CB61EAC00B7B52B /* UIBarButtonItem+Extensions.m */,
+				4A6CA1201CB61EAC00B7B52B /* UIView+Extensions.h */,
+				4A6CA1211CB61EAC00B7B52B /* UIView+Extensions.m */,
 				4A083AAC1CA4BF2600FB9625 /* UIImage+image.h */,
 				4A083AAD1CA4BF2600FB9625 /* UIImage+image.m */,
 			);
@@ -249,7 +284,6 @@
 			children = (
 				4A0ABF991CB3A1BA00AAD7E2 /* Lib */,
 				4A6968FA1CA3AB45000562DD /* LaunchScreen.storyboard */,
-				4A083B101CA4F62500FB9625 /* Main.storyboard */,
 				4A083AAA1CA4BDC400FB9625 /* Assets.xcassets */,
 				4A6968FD1CA3AB45000562DD /* Info.plist */,
 				4A083B1B1CA506EB00FB9625 /* DWPCH.pch */,
@@ -337,6 +371,34 @@
 				4A6969131CA3AB45000562DD /* Info.plist */,
 			);
 			path = MyWebSiteUITests;
+			sourceTree = "<group>";
+		};
+		4A6CA1251CB61EEE00B7B52B /* LeftEdge */ = {
+			isa = PBXGroup;
+			children = (
+				4A6CA1461CB6248200B7B52B /* DWLeftSlideControllerOne */,
+				4A6CA1441CB621A200B7B52B /* Left.storyboard */,
+				4A6CA1411CB6215B00B7B52B /* TestViewController.h */,
+				4A6CA1421CB6215B00B7B52B /* TestViewController.m */,
+				4A6CA1361CB6210A00B7B52B /* LeftViewController.h */,
+				4A6CA1371CB6210A00B7B52B /* LeftViewController.m */,
+				4A6CA1381CB6210A00B7B52B /* Main.storyboard */,
+				4A6CA1391CB6210A00B7B52B /* MainViewController.h */,
+				4A6CA13A1CB6210A00B7B52B /* MainViewController.m */,
+				4A6CA13B1CB6210A00B7B52B /* OtherViewController.h */,
+				4A6CA13C1CB6210A00B7B52B /* OtherViewController.m */,
+			);
+			name = LeftEdge;
+			sourceTree = "<group>";
+		};
+		4A6CA1461CB6248200B7B52B /* DWLeftSlideControllerOne */ = {
+			isa = PBXGroup;
+			children = (
+				4A6CA1471CB6248200B7B52B /* DWLeftSlideControllerOne.h */,
+				4A6CA1481CB6248200B7B52B /* DWLeftSlideControllerOne.m */,
+			);
+			name = DWLeftSlideControllerOne;
+			path = CSLeftSlideControllerOne;
 			sourceTree = "<group>";
 		};
 		4A6E73661CB4A11300BF2057 /* LoadingPage */ = {
@@ -477,8 +539,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A6CA1451CB621A200B7B52B /* Left.storyboard in Resources */,
+				4A6CA13E1CB6210A00B7B52B /* Main.storyboard in Resources */,
 				4A6E73701CB4A13900BF2057 /* index.html in Resources */,
-				4A083B111CA4F62600FB9625 /* Main.storyboard in Resources */,
 				4A6E736F1CB4A13900BF2057 /* style.css in Resources */,
 				4A6E73711CB4A13900BF2057 /* index.js in Resources */,
 				4A6E736E1CB4A13900BF2057 /* normalize.css in Resources */,
@@ -512,10 +575,18 @@
 				4A6969241CA3ACAC000562DD /* WeddingPhotoView.m in Sources */,
 				4A083B141CA4F69A00FB9625 /* DWNavigationController.m in Sources */,
 				4A083AAE1CA4BF2600FB9625 /* UIImage+image.m in Sources */,
+				4A6CA13F1CB6210A00B7B52B /* MainViewController.m in Sources */,
+				4A6CA11D1CB5F61100B7B52B /* DWWebViewVC.m in Sources */,
 				4A6968F41CA3AB45000562DD /* ViewController.m in Sources */,
 				4A6969271CA3ACD2000562DD /* WeddingPhotoViewController.m in Sources */,
+				4A6CA13D1CB6210A00B7B52B /* LeftViewController.m in Sources */,
 				4A0ABFA01CB3A1FA00AAD7E2 /* MBProgressHUD+MJ.m in Sources */,
+				4A6CA1231CB61EAC00B7B52B /* UIView+Extensions.m in Sources */,
+				4A6CA1401CB6210A00B7B52B /* OtherViewController.m in Sources */,
+				4A6CA1431CB6215B00B7B52B /* TestViewController.m in Sources */,
 				4A6968F11CA3AB45000562DD /* AppDelegate.m in Sources */,
+				4A6CA14C1CB6248200B7B52B /* DWLeftSlideControllerOne.m in Sources */,
+				4A6CA1221CB61EAC00B7B52B /* UIBarButtonItem+Extensions.m in Sources */,
 				4A0ABFA21CB3A1FA00AAD7E2 /* MBProgressHUD.m in Sources */,
 				4A083AB11CA4C17F00FB9625 /* HostSiteViewController.m in Sources */,
 				4A6968EE1CA3AB45000562DD /* main.m in Sources */,

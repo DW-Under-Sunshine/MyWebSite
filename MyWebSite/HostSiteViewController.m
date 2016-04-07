@@ -5,14 +5,15 @@
 //  Created by DW on 16/3/25.
 //  Copyright © 2016年 DW. All rights reserved.
 //
-
 #import "HostSiteViewController.h"
 //#import "DWPopImageView.h"
 //#import "ClickViewController.h"
 #import "BlurEffectMenu.h"
+#import "DWWebViewVC.h"
 @interface HostSiteViewController ()
 //@property (nonatomic,strong) ClickViewController *popCon;
 @property (nonatomic,strong) UIButton *btn;
+@property (nonatomic,strong) UIWebView *webView;
 @end
 @implementation HostSiteViewController
 
@@ -32,7 +33,12 @@
     [self setUpNavgationBar];
     
 }
-
+- (UIWebView *)webView {
+    if (_webView == nil) {
+        _webView = [[UIWebView alloc] initWithFrame:self.view.frame];
+    }
+    return _webView;
+}
 -(UIButton *)btn
 {
     if (_btn == nil) {
@@ -51,6 +57,7 @@
 //    [self.btn setTitleEdgeInsets:UIEdgeInsetsMake(10, 40, 10, 40)];
 //    self.btn.titleLabel.adjustsFontSizeToFitWidth = NO;
     self.navigationItem.titleView = self.btn;
+    [self setPageWebViewWithUrl:@"http://www.dogbroblog.com/dogBroBlog/"];
 }
 
 -(void)titleClick :(UIButton *) btn
@@ -115,18 +122,34 @@
     if ([item.title isEqualToString:@"IOS"])
     {
         [self.btn setTitle:@"IOS" forState:UIButtonTypeCustom];
+        [self setPageWebViewWithUrl:@"http://139.129.18.51/dogBroBlog/category/ms/oc-ios/"];
     }else if ([item.title isEqualToString:@"Web"])
     {
         [self.btn setTitle:@"Web" forState:UIButtonTypeCustom];
+        [self setPageWebViewWithUrl:@"http://139.129.18.51/dogBroBlog/category/ms/web/"];
+
     }else if ([item.title isEqualToString:@"Python"])
     {
         [self.btn setTitle:@"Python" forState:UIButtonTypeCustom];
+        [self setPageWebViewWithUrl:@"http://139.129.18.51/dogBroBlog/category/ms/python/"];
     }else if ([item.title isEqualToString:@"BigData"])
     {
         [self.btn setTitle:@"BigData" forState:UIButtonTypeCustom];
+        [self setPageWebViewWithUrl:@"http://139.129.18.51/dogBroBlog/category/ms/bigdate-ms/"];
     }else if ([item.title isEqualToString:@"HomePage"])
     {
         [self.btn setTitle:@"HomePage" forState:UIButtonTypeCustom];
+        [self setPageWebViewWithUrl:@"http://www.dogbroblog.com/dogBroBlog/"];
     }
+}
+#pragma mark -修改显示在页面中的网页
+-(void)setPageWebViewWithUrl:(NSString *)Weburl
+{
+    UIWebView *Web = [[UIWebView alloc]initWithFrame:self.view.bounds];
+//    NSLog(@"%d",self.btn.bounds.size.height);
+    NSURLRequest *IosRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:Weburl]];
+    [Web loadRequest:IosRequest];
+    self.webView = Web;
+    [self.view addSubview:self.webView];
 }
 @end
