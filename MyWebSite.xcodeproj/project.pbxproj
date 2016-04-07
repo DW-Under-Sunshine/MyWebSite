@@ -14,6 +14,9 @@
 		4A083B111CA4F62600FB9625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A083B101CA4F62500FB9625 /* Main.storyboard */; };
 		4A083B141CA4F69A00FB9625 /* DWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A083B131CA4F69A00FB9625 /* DWNavigationController.m */; };
 		4A083B201CA50C1000FB9625 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A083B1F1CA50C1000FB9625 /* UIKit.framework */; };
+		4A0ABFA01CB3A1FA00AAD7E2 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0ABF9C1CB3A1FA00AAD7E2 /* MBProgressHUD+MJ.m */; };
+		4A0ABFA11CB3A1FA00AAD7E2 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4A0ABF9D1CB3A1FA00AAD7E2 /* MBProgressHUD.bundle */; };
+		4A0ABFA21CB3A1FA00AAD7E2 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0ABF9F1CB3A1FA00AAD7E2 /* MBProgressHUD.m */; };
 		4A6968EE1CA3AB45000562DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6968ED1CA3AB45000562DD /* main.m */; };
 		4A6968F11CA3AB45000562DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6968F01CA3AB45000562DD /* AppDelegate.m */; };
 		4A6968F41CA3AB45000562DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6968F31CA3AB45000562DD /* ViewController.m */; };
@@ -24,6 +27,10 @@
 		4A6969271CA3ACD2000562DD /* WeddingPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6969261CA3ACD2000562DD /* WeddingPhotoViewController.m */; };
 		4A69692C1CA3AE81000562DD /* WebSiteTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A69692B1CA3AE81000562DD /* WebSiteTabbarController.m */; };
 		4A69692E1CA3AFB3000562DD /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A69692D1CA3AFB3000562DD /* Reveal.framework */; };
+		4A6E736E1CB4A13900BF2057 /* normalize.css in Resources */ = {isa = PBXBuildFile; fileRef = 4A6E73691CB4A13900BF2057 /* normalize.css */; };
+		4A6E736F1CB4A13900BF2057 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4A6E736A1CB4A13900BF2057 /* style.css */; };
+		4A6E73701CB4A13900BF2057 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4A6E736B1CB4A13900BF2057 /* index.html */; };
+		4A6E73711CB4A13900BF2057 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 4A6E736D1CB4A13900BF2057 /* index.js */; };
 		4A98F4251CA8EF24000FB33A /* BlurEffectMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A98F4241CA8EF24000FB33A /* BlurEffectMenu.m */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +63,11 @@
 		4A083B131CA4F69A00FB9625 /* DWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWNavigationController.m; sourceTree = "<group>"; };
 		4A083B1B1CA506EB00FB9625 /* DWPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWPCH.pch; sourceTree = "<group>"; };
 		4A083B1F1CA50C1000FB9625 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A0ABF9B1CB3A1FA00AAD7E2 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		4A0ABF9C1CB3A1FA00AAD7E2 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		4A0ABF9D1CB3A1FA00AAD7E2 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		4A0ABF9E1CB3A1FA00AAD7E2 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		4A0ABF9F1CB3A1FA00AAD7E2 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		4A6968E91CA3AB45000562DD /* MyWebSite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWebSite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6968ED1CA3AB45000562DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A6968EF1CA3AB45000562DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,6 +89,10 @@
 		4A69692A1CA3AE81000562DD /* WebSiteTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSiteTabbarController.h; sourceTree = "<group>"; };
 		4A69692B1CA3AE81000562DD /* WebSiteTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSiteTabbarController.m; sourceTree = "<group>"; };
 		4A69692D1CA3AFB3000562DD /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = MyWebSite/Reveal.framework; sourceTree = "<group>"; };
+		4A6E73691CB4A13900BF2057 /* normalize.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = normalize.css; sourceTree = "<group>"; };
+		4A6E736A1CB4A13900BF2057 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		4A6E736B1CB4A13900BF2057 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		4A6E736D1CB4A13900BF2057 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
 		4A98F4231CA8EF24000FB33A /* BlurEffectMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurEffectMenu.h; sourceTree = "<group>"; };
 		4A98F4241CA8EF24000FB33A /* BlurEffectMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurEffectMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -228,6 +244,39 @@
 			name = Category;
 			sourceTree = "<group>";
 		};
+		4A0ABF981CB3A1B100AAD7E2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4A0ABF991CB3A1BA00AAD7E2 /* Lib */,
+				4A6968FA1CA3AB45000562DD /* LaunchScreen.storyboard */,
+				4A083B101CA4F62500FB9625 /* Main.storyboard */,
+				4A083AAA1CA4BDC400FB9625 /* Assets.xcassets */,
+				4A6968FD1CA3AB45000562DD /* Info.plist */,
+				4A083B1B1CA506EB00FB9625 /* DWPCH.pch */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		4A0ABF991CB3A1BA00AAD7E2 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				4A0ABF9A1CB3A1FA00AAD7E2 /* MBProgressHUD */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		4A0ABF9A1CB3A1FA00AAD7E2 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4A0ABF9B1CB3A1FA00AAD7E2 /* MBProgressHUD+MJ.h */,
+				4A0ABF9C1CB3A1FA00AAD7E2 /* MBProgressHUD+MJ.m */,
+				4A0ABF9D1CB3A1FA00AAD7E2 /* MBProgressHUD.bundle */,
+				4A0ABF9E1CB3A1FA00AAD7E2 /* MBProgressHUD.h */,
+				4A0ABF9F1CB3A1FA00AAD7E2 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		4A6968E01CA3AB45000562DD = {
 			isa = PBXGroup;
 			children = (
@@ -254,15 +303,12 @@
 		4A6968EB1CA3AB45000562DD /* MyWebSite */ = {
 			isa = PBXGroup;
 			children = (
+				4A6E73661CB4A11300BF2057 /* LoadingPage */,
+				4A0ABF981CB3A1B100AAD7E2 /* Other */,
 				4A083B0B1CA4F50A00FB9625 /* Main */,
 				4A083B061CA4F4D500FB9625 /* WeddingPhoto */,
 				4A083B021CA4F4B100FB9625 /* HomePage */,
-				4A6968FA1CA3AB45000562DD /* LaunchScreen.storyboard */,
-				4A083B101CA4F62500FB9625 /* Main.storyboard */,
-				4A083AAA1CA4BDC400FB9625 /* Assets.xcassets */,
-				4A6968FD1CA3AB45000562DD /* Info.plist */,
 				4A6968EC1CA3AB45000562DD /* Supporting Files */,
-				4A083B1B1CA506EB00FB9625 /* DWPCH.pch */,
 			);
 			path = MyWebSite;
 			sourceTree = "<group>";
@@ -291,6 +337,41 @@
 				4A6969131CA3AB45000562DD /* Info.plist */,
 			);
 			path = MyWebSiteUITests;
+			sourceTree = "<group>";
+		};
+		4A6E73661CB4A11300BF2057 /* LoadingPage */ = {
+			isa = PBXGroup;
+			children = (
+				4A6E73671CB4A13900BF2057 /* LoadingPage */,
+			);
+			name = LoadingPage;
+			sourceTree = "<group>";
+		};
+		4A6E73671CB4A13900BF2057 /* LoadingPage */ = {
+			isa = PBXGroup;
+			children = (
+				4A6E73681CB4A13900BF2057 /* css */,
+				4A6E736B1CB4A13900BF2057 /* index.html */,
+				4A6E736C1CB4A13900BF2057 /* js */,
+			);
+			path = LoadingPage;
+			sourceTree = "<group>";
+		};
+		4A6E73681CB4A13900BF2057 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				4A6E73691CB4A13900BF2057 /* normalize.css */,
+				4A6E736A1CB4A13900BF2057 /* style.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		4A6E736C1CB4A13900BF2057 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				4A6E736D1CB4A13900BF2057 /* index.js */,
+			);
+			path = js;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,7 +477,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A6E73701CB4A13900BF2057 /* index.html in Resources */,
 				4A083B111CA4F62600FB9625 /* Main.storyboard in Resources */,
+				4A6E736F1CB4A13900BF2057 /* style.css in Resources */,
+				4A6E73711CB4A13900BF2057 /* index.js in Resources */,
+				4A6E736E1CB4A13900BF2057 /* normalize.css in Resources */,
+				4A0ABFA11CB3A1FA00AAD7E2 /* MBProgressHUD.bundle in Resources */,
 				4A6968FC1CA3AB45000562DD /* LaunchScreen.storyboard in Resources */,
 				4A083AAB1CA4BDC400FB9625 /* Assets.xcassets in Resources */,
 			);
@@ -428,7 +514,9 @@
 				4A083AAE1CA4BF2600FB9625 /* UIImage+image.m in Sources */,
 				4A6968F41CA3AB45000562DD /* ViewController.m in Sources */,
 				4A6969271CA3ACD2000562DD /* WeddingPhotoViewController.m in Sources */,
+				4A0ABFA01CB3A1FA00AAD7E2 /* MBProgressHUD+MJ.m in Sources */,
 				4A6968F11CA3AB45000562DD /* AppDelegate.m in Sources */,
+				4A0ABFA21CB3A1FA00AAD7E2 /* MBProgressHUD.m in Sources */,
 				4A083AB11CA4C17F00FB9625 /* HostSiteViewController.m in Sources */,
 				4A6968EE1CA3AB45000562DD /* main.m in Sources */,
 				4A69692C1CA3AE81000562DD /* WebSiteTabbarController.m in Sources */,

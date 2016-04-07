@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "MBProgressHUD.h"
 @interface WeddingPhotoViewController : UIViewController
-
+@property (nonatomic,strong) MBProgressHUD *MB;
 @end

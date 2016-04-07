@@ -45,9 +45,11 @@
     //添加左边的item
 //    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"mine" style:UIBarButtonSystemItemAdd target:nil action:nil];
 //    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [self.btn setTitle:@"首页" forState:UIButtonTypeCustom];
+    [self.btn setTitle:@"HomePage" forState:UIButtonTypeCustom];
     [self.btn setTitleColor:[UIColor blueColor] forState:UIButtonTypeCustom];
     [self.btn addTarget:self action:@selector(titleClick:) forControlEvents:UIControlEventTouchUpInside];
+//    [self.btn setTitleEdgeInsets:UIEdgeInsetsMake(10, 40, 10, 40)];
+//    self.btn.titleLabel.adjustsFontSizeToFitWidth = NO;
     self.navigationItem.titleView = self.btn;
 }
 
@@ -65,6 +67,9 @@
 //    DWPopImageView *menu = [DWPopImageView showInRect:CGRectMake(popX,popY,popW,popH)];
 //    menu.contentView = self.popCon.view;
 //首页btn设置图钉效果
+    BlurEffectMenuItem *MyhomeSitePage=[[BlurEffectMenuItem alloc]init];
+    [MyhomeSitePage setTitle:@"HomePage"];
+    [MyhomeSitePage setIcon:[UIImage imageNamed:@"addMatters"]];
     BlurEffectMenuItem *addMattersItem=[[BlurEffectMenuItem alloc]init];
     [addMattersItem setTitle:@"IOS"];
     [addMattersItem setIcon:[UIImage imageNamed:@"addMatters"]];
@@ -80,7 +85,7 @@
     BlurEffectMenuItem *searchContactsItem=[[BlurEffectMenuItem alloc]init];
     [searchContactsItem setTitle:@"BigData"];
     [searchContactsItem setIcon:[UIImage imageNamed:@"searchContacts"]];
-    BlurEffectMenu *menu=[[BlurEffectMenu alloc]initWithMenus:@[addMattersItem,addSchedulesItem,setupChatItem,searchContactsItem]];
+    BlurEffectMenu *menu=[[BlurEffectMenu alloc]initWithMenus:@[MyhomeSitePage,addMattersItem,addSchedulesItem,setupChatItem,searchContactsItem]];
     [menu setDelegate:self];
     menu.modalPresentationStyle = UIModalPresentationOverFullScreen;
     [menu setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
@@ -107,18 +112,21 @@
 - (void)blurEffectMenu:(BlurEffectMenu *)menu didTapOnItem:(BlurEffectMenuItem *)item{
     [self dismissViewControllerAnimated:YES completion:nil];
     NSLog(@"item.title:%@",item.title);
-//    if ([item.title isEqualToString:@"ISO"])
-//    {
-//        [self.btn setTitle:@"IOS" forState:UIButtonTypeCustom];
-//    }else if ([item.title isEqualToString:@"Web"])
-//    {
-//        [self.btn setTitle:@"Web" forState:UIButtonTypeCustom];
-//    }else if ([item.title isEqualToString:@"Python"])
-//    {
-//        [self.btn setTitle:@"Python" forState:UIButtonTypeCustom];
-//    }else if ([item.title isEqualToString:@"BigData"])
-//    {
-//        [self.btn setTitle:@"BigData" forState:UIButtonTypeCustom];
-//    }
+    if ([item.title isEqualToString:@"IOS"])
+    {
+        [self.btn setTitle:@"IOS" forState:UIButtonTypeCustom];
+    }else if ([item.title isEqualToString:@"Web"])
+    {
+        [self.btn setTitle:@"Web" forState:UIButtonTypeCustom];
+    }else if ([item.title isEqualToString:@"Python"])
+    {
+        [self.btn setTitle:@"Python" forState:UIButtonTypeCustom];
+    }else if ([item.title isEqualToString:@"BigData"])
+    {
+        [self.btn setTitle:@"BigData" forState:UIButtonTypeCustom];
+    }else if ([item.title isEqualToString:@"HomePage"])
+    {
+        [self.btn setTitle:@"HomePage" forState:UIButtonTypeCustom];
+    }
 }
 @end

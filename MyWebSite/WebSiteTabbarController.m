@@ -17,11 +17,11 @@
     //设置Tabbar里面的两个标签
     HostSiteViewController *HSViewController = [[HostSiteViewController alloc]init];
     [self addChildViewController:HSViewController addChildItemName:@"HomeSite" addChildItemImage:[UIImage
-     imageWithOriginalName:@"host_WebSite"] addChildSelectItemImage:[UIImage imageNamed:@"host_WebSite"]];
+     imageWithOriginalName:@"host_WebSite"] addChildSelectItemImage:[UIImage imageNamed:@"host_WebSite"] didLoadNav:YES];
     WeddingPhotoViewController *WPViewController = [[WeddingPhotoViewController alloc]init];
-    [self addChildViewController:WPViewController addChildItemName:@"Wedding" addChildItemImage:[UIImage imageWithOriginalName:@"host_WeddingPhoto"] addChildSelectItemImage:[UIImage imageNamed:@"host_WeddingPhoto"]];
+    [self addChildViewController:WPViewController addChildItemName:@"Wedding" addChildItemImage:[UIImage imageWithOriginalName:@"host_WeddingPhoto"] addChildSelectItemImage:[UIImage imageNamed:@"host_WeddingPhoto"] didLoadNav:NO];
 }
--(void)addChildViewController:(UIViewController *)childController addChildItemName:(NSString *)name addChildItemImage:(UIImage *)image addChildSelectItemImage:(UIImage *)SImage
+-(void)addChildViewController:(UIViewController *)childController addChildItemName:(NSString *)name addChildItemImage:(UIImage *)image addChildSelectItemImage:(UIImage *)SImage didLoadNav:(BOOL)didload
 {
     childController.tabBarItem.title = name;
     childController.tabBarItem.image = image;
@@ -32,8 +32,11 @@
     [childController.tabBarItem setTitleTextAttributes:att forState:UIControlStateNormal];
     [self addChildViewController:childController];
     //设置导航栏
-    DWNavigationController *nav = [[DWNavigationController alloc]initWithRootViewController:childController];
-    [self addChildViewController:nav];
+    if (didload) {
+        DWNavigationController *nav = [[DWNavigationController alloc]initWithRootViewController:childController];
+        [self addChildViewController:nav];
+    }
+    
     
 }
 @end

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HostSiteViewController : UIViewController 
+@interface HostSiteViewController : UITableViewController
 
 @end
